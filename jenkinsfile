@@ -5,7 +5,7 @@ pipeline {
         stage('clone') {
             steps {
                 echo 'Cloning Repository...'
-                git ''
+                git 'https://github.com/garuncse/PROJECT_VBIT_21PA07.git'
             }
         }
 
